@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De tudo um pouco</title>
+    <link rel="shortcut icon" href="imagens/logo-html-css.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Seja bem-vindo a minha página</h1>
+    <hr>
+    <h2>De tudo um pouco...</h2>
+    <p>Nessa página eu irei colocar em prática tudo que foi aprendido no Módulo 1 de <abbr title="HyperText Markup Language "><strong>HTML</strong></abbr> e <abbr title="Cascading Style Sheets"><strong>CSS</strong></abbr>, do professor <br> Gustavo Guanabara dono do canal <a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ">Curso em Vídeo</a> .Segue abaixo uma foto da lenda Guanabara! &#8595;</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/guanabara-p.jpg" type="image/png">
+        <source media="(max-width: 1100px)" srcset="imagens/guanabara-m.jpg" type="image/png">
+        <img src="imagens/guanabara-g.jpg" alt="Foto_guanabara">
+    </picture>
+    <hr>
+   <h2>Conteúdos vistos no módulo 1</h2>
+    <ul>
+        <li>Domínio e hospedagem</li>
+        <li>Tipos de imagens</li>
+        <li>Hierarquia de títulos</li>
+        <li>Listas ordenas e não ordenadas</li>
+        <li>Links internos e exeternos</li>
+        <li>Inserir áudios, vídeos e imagens</li>
+        <li>Tipos de CSS
+            <ol>
+                <li>Inline</li>
+                <li>Interno</li>
+                <li>Externo</li>
+            </ol>
+        </li>
+    </ul>
+    <hr>
+    <h2>Inserindo um Vídeo</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LXb3EKWsInQ?si=5ErMt2wZIAZd1EpR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <hr>
+    <h2>Inserindo um endereço</h2>
+    <address>Rua André Bredofw, Cidade X, Residencia X, ES.</address>
+    <hr>
+    <h2>Inserindo um áudio</h2>
+    <audio preload="metadata" src="audio/cr7-eu-sou-o-melhor.mp3" controls></audio>
+</body>
+</html>
