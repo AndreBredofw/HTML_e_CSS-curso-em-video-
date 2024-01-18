@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Kaushan+Script&family=Pacifico&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-image: linear-gradient(to right, #BF3978, #D99E89  );
+    
+}
+main{
+    background-color: #F2CBC2;
+    border-radius: 20px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    box-shadow:3px 3px 18px #011826 ;
+    text-align: justify;
+} 
+
+
+h1{
+    font-family: "Pacifico", cursive;
+    font-size: 40px;
+    color: #011826;
+    text-shadow:1px 2px 2px #0118269d;
+}
+
+h2{
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    color: #BF396A;
+}
+
+p{
+    font-family: "Kalam", cursive;
+    font: 1em ;
+}
+
+
