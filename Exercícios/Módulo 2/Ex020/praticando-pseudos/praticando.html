@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando Aprendizados</title>
+    <style>
+        body{
+            background-image:linear-gradient(to right, #F2E205, #F2B705)  ;
+        }
+
+        main{
+            border-radius: 20px;
+            width: 600px;
+            height: 580px;
+            background-color: #05DBF2;
+            margin: auto;
+            padding: 10px;
+        }
+
+        h1{
+            font-size: 2em;
+            text-align: center;
+            text-shadow: 1px 2px 2px rgba(65, 64, 64, 0.753);
+        }
+
+        .pseudoC{
+            font-size: 1.3em;
+            padding-left: 63px;
+        
+        }
+
+        .pseudoE{
+            font-size: 1.3em;
+            padding-top: 18px;
+            padding-bottom: 30px;
+            padding-left: 63px;
+        } 
+
+        div{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        div > p{
+            display: none;
+        } 
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover{
+            color: #F2059F;
+
+        }
+
+        a::after{
+            content: ' [link]';
+            color: gray;
+            font-size: 16px;
+        }
+        div:hover > p{
+            padding: 5px;
+            display: block;
+            border: 1px solid black;
+            font-size: 17px;
+            color: white;
+            text-align: justify;
+        }
+
+        img{
+            padding-left: 63px;
+        }
+    
+    </style>
+</head>
+<body>
+    
+    <main>
+        <h1>Pseudo-classes e Pseudo-elementos</h1>
+            <div class="pseudoC">
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes" target="_blank" rel="external">Pseudo-classes</a>
+                <p>Uma pseudo-classe CSS é uma palavra-chave adicionada a seletores que especifica um estado especial do elemento selecionado. Por exemplo, :hover pode ser usado para alterar a cor de um botão quando o usuário passar o cursor sobre ele.</p>
+            </div>
+            <div class="pseudoE">
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-elements" target="_blank" rel="external">Pseudo-elementos</a>
+                <p>
+                    Um pseudo-elemento CSS é uma palavra-chave adicionada a um seletor que permite que você estilize uma parte específica do elemento selecionado. Por exemplo, o pseudo-elemento ::first-line aplica o estilo apenas na primeira linha de um parágrafo.
+                </p>
+            </div>
+            <picture>
+                <img src="foto-pseudo-g.jpg" alt="Foto pseudo-classes e pseudo-elementos">
+            </picture>  
+    </main>
+</body>
+</html>
