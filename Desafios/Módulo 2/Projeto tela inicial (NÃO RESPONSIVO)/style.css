@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: bisque;
+    background-color: white;
 
 }
 header{
@@ -27,9 +27,13 @@ nav{
 }
 
 #paddingINNO{
-    margin-left: 80px;
-    margin-right: 130px;
+    margin-left: 60px;
+    margin-right: 80px;
     font-size: 1.3em;
+}
+
+#one, #home{
+    color: rgb(64, 142, 194);
 }
 
 #paddingPOTENT{
@@ -41,12 +45,50 @@ nav{
 #btnNav{
     padding: 4px 15px 4px 15px;
     font-size: 0.8em;
+    color: white;
+    background-color: rgb(64, 142, 194);
+    border: 1px solid transparent;
 }
+
 #alemanha{
     width: 19px; 
     height: 12px;
     padding-right: 4px;
-    
+}
+
+#retangulo{
+    border: 1px solid transparent;
+    background-color: rgba(64, 142, 194, 0.036);
+    height: 350px;
+    width: 1000px;
+    margin: 0px auto 30px auto;   
+    text-align: center;            
+}
+
+#circulo{
+    margin-left: 120px;
+    margin-top: -300px;
+    background-image: linear-gradient(to bottom, rgb(246, 247, 248), rgba(64, 142, 194, 0.075), rgba(66, 143, 194, 0.205)) ;
+    height: 750px;
+    width: 750px;
+    border-radius: 50%;
 }
  
+#divret{
+    padding-top: 110px;
+    
+}
 
+#btnLinkedin{
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px ;
+    border: 2px solid rgba(64, 142, 194, 0.418);
+    padding: 5px;
+    
+}
+
+article p{
+    margin-top: 30px;
+    font-size: 3.4em;
+    text-align: center;
+}
