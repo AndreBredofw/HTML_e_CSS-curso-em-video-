@@ -61,7 +61,7 @@ nav{
     background-color: rgba(64, 142, 194, 0.036);
     height: 350px;
     width: 1000px;
-    margin: 0px auto 30px auto;   
+    margin: auto;   
     text-align: center;            
 }
 
@@ -83,7 +83,7 @@ nav{
     background-color: rgb(255, 255, 255);
     border-radius: 25px ;
     border: 2px solid rgba(64, 142, 194, 0.418);
-    padding: 5px;
+    padding: 10px;
     
 }
 
@@ -91,4 +91,38 @@ article p{
     margin-top: 30px;
     font-size: 3.4em;
     text-align: center;
+
+}
+
+#btnSpren{
+    padding: 5px 10px 5px 10px;
+    font-size: 1.8em;
+    border: 1px solid transparent;
+    background-color: rgb(64, 142, 194);
+    color: white;
+    margin-left: 745px;   
+}
+
+#kosten{
+    font-size: 0.95em;
+    color: rgba(0, 0, 0, 0.562);
+    padding-left: 10px;
+
+}
+
+.cont{
+    background-color: white;
+    width: 170px;
+    height: 65px;
+    margin: 7px;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+#diiv{   
+    margin-left: 690px;
+}
+
+#meio{
+    margin-top: 20px;
 }
