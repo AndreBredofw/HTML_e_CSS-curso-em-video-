@@ -22,7 +22,7 @@ nav a{
     font-size: 0.82em; 
 } 
 nav{
-    margin-left: 160px;
+    margin-left: 290px;
     padding-top: 15px;
 }
 
@@ -100,7 +100,7 @@ article p{
     border: 1px solid transparent;
     background-color: rgb(64, 142, 194);
     color: white;
-    margin-left: 745px;   
+    margin-left: 845px;   
 }
 
 #kosten{
@@ -111,18 +111,25 @@ article p{
 }
 
 .cont{
-    background-color: white;
-    width: 170px;
-    height: 65px;
+    background-color: rgb(182, 53, 53);
+    width: 190px;
+    height: 90px;
     margin: 7px;
     display: inline-block;
-    margin-top: 40px;
-}
-
-#diiv{   
-    margin-left: 690px;
+    margin-top: 50px;
+    padding-right: 70px;
 }
 
 #meio{
-    margin-top: 20px;
+    margin-top: 30px;
 }
+
+#diiv{   
+    margin-left: 649px;
+}
+
+#meio > span{
+    text-align: left;
+    font-size: 0.9em;
+}
+
