@@ -13,5 +13,14 @@
         <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png"> <!--Até 1050px vai usar imagem m-->
         <img src="imagens/foto-g.png" alt="Imagem flexível">
     </picture>
+    <h1>Reproduzindo aúdio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML 5.</p>
+    <audio preload="auto" autoplay controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.mp3" type="audio/wav">
+        <p>Infelizmente o seu navegador não consegue reproduzir aúdio. <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+
+    </audio> <!--MP3 WAV OGG são os tipos (WAV são muito pesados)-->
 </body>
 </html>
