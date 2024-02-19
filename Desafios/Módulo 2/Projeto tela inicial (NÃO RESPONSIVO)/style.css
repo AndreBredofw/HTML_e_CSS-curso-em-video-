@@ -100,7 +100,7 @@ article p{
     border: 1px solid transparent;
     background-color: rgb(64, 142, 194);
     color: white;
-    margin-left: 845px;   
+    margin-left: 745px;   
 }
 
 #kosten{
@@ -110,20 +110,46 @@ article p{
 
 }
 
-.cont{
-    background-color: white;
-    width: 190px;
-    height: 90px;
-    margin: 7px;
-    display: inline-block;
-    margin-top: 50px;
-    padding-right: 70px;
-}
-
 #meio{
     margin-top: 30px;
 }
 
-#diiv{   
-    margin-left: 649px;
+#diiv{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 230px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#diiv1{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 240px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#diiv2{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 230px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#sek{
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+.imm{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.sma{
+    padding-left: 14px;
+    font-size: 0.9em;
+
 }
