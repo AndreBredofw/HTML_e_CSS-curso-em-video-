@@ -10,12 +10,38 @@
         display: none;
       }
     
+      #estilo{
+        background-color: rgb(166, 173, 175);
+        display: block;
+        width: 150px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+      }
 
       div:hover > p{
         color: red;
         display: block;
+        width: 80px;
+        background-color: lightgray;
+        
       }
 
+      table{
+        border-collapse: collapse;
+        margin-bottom: 15px;
+      }
+
+      th, td{
+        border: 1px solid black;
+        padding: 15px;
+      }
+
+      #head, #media{
+        background-color: gray;
+        color: white;
+        font-weight: bolder;
+      }
 
     </style>
 </head>
@@ -28,11 +54,53 @@
             <a href="#">Link 3</a>
         </nav>
     <div>
-        Olá meu amigo
-        <p>Ô meu amigão</p>
+        <span id="estilo">Passe o mouse aqui e verá uma mensagem</span>
+        <p>Surpresa!!!</p>
     </div>
     </header>
-   
+    <table>
+      <thead id="head">
+        <tr>
+          <th rowspan="2">Área</th>
+          <th rowspan="2">Disciplinas</th>
+          <th colspan="2">Notas</th>
+          <th rowspan="2">Média</th>
+        </tr>
+        <tr>
+          <td>Nota1</td>
+          <td>Nota2</td>
+        </tr>
+      </thead>
+
+        <tr>
+          <td rowspan="3">Exatas</td>
+          <td>Matemática</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+
+        <tr>
+          <td>Física</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        
+        <tr>
+          <td>Química</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+
+        <tr id="media">
+          <th colspan="4">Média de Humanas</th>
+          <td>0</td>
+        </tr>
+    </table>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fV6yoqY9bmE?si=kWw8Zgm228H1Z3W2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
 
 </body>
 </html>
