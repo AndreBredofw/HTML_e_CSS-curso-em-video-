@@ -15,18 +15,12 @@
             width: 260px;
             margin: auto;
             padding: 15px;
-                
-                & input{
-                    width: 160px;
-                }
         }
         header{
             text-align: center;
         }
 
-        .red{
-            
-        }
+    
     </style>
 </head>
 <body>
@@ -40,21 +34,23 @@
             <label for="inome">Nome completo:</label> <br>
             <input type="text" name="nome" id="inome" required minlength="4" maxlength="35">
         </p>
-        <p>
-            <label for="genero">Gênero:</label> <br>
-            <div>
-                <label for="imasc">Masculino</label>
-                <input type="radio" name="masc" id="imasc" class="rad">
-            </div>
-            <div>
-                <label for="ifem">Feminino</label>
-                <input type="radio" name="fem" id="ifem" class="rad">
-            </div>
-            <div>
-                <label for="irecuse">Não informar</label>
-                <input type="radio" name="recuse" id="irecuse" class="rad">
-            </div>
-        </p>
+        <div>
+            <label for="gen">Genêro:</label>
+            <p>
+                <input type="radio" name="sex" id="imasc" class="rad"> <label for="imasc">Masculino</label>
+            </p>
+            
+            <p>
+                <input type="radio" name="sex" id="ifem" class="rad"> <label for="ifem">Feminino</label>
+            </p>
+                
+            <p>
+                
+                <input type="radio" name="sex" id="irecuse" class="rad"> <label for="irecuse">Não informar</label>
+            </p>
+           
+        </div>
+
         <p>
             <label for="iemail">Email:</label> <br>
             <input type="email" name="email" id="iemail" required>
@@ -76,5 +72,6 @@
             <input type="password" name="senha" id="isenha">
         </p>
     </form>
+    
 </body>
 </html>
