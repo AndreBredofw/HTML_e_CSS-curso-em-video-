@@ -12,18 +12,25 @@
         form{
             border: 1px solid black;
             height: 450px;
-            width: 260px;
+            width: 320px;
             margin: auto;
             padding: 15px;
+        }
+        #nave{
+            height: 85px;
+            background-color: #F80032;
         }
         header{
             text-align: center;
         }
 
-    
+ 
     </style>
 </head>
 <body>
+    <nav id="nave">
+
+    </nav>
     <header>
         <h1>Realize seu cadastro</h1>
         <p>veja seus pedidos de forma fácil, compre mais rápido e tenha uma experiência personalizada :) </p>
@@ -35,32 +42,21 @@
             <input type="text" name="nome" id="inome" required minlength="4" maxlength="35">
         </p>
         <div>
-            <label for="gen">Genêro:</label>
-            <p>
+            <label for="gen">Genêro:</label> <br>
+         
                 <input type="radio" name="sex" id="imasc" class="rad"> <label for="imasc">Masculino</label>
-            </p>
-            
-            <p>
+          
                 <input type="radio" name="sex" id="ifem" class="rad"> <label for="ifem">Feminino</label>
-            </p>
-                
-            <p>
-                
+
                 <input type="radio" name="sex" id="irecuse" class="rad"> <label for="irecuse">Não informar</label>
-            </p>
-           
         </div>
 
-        <p>
-            <label for="iemail">Email:</label> <br>
-            <input type="email" name="email" id="iemail" required>
-        </p>
         <p>
             <label for="itel">Telefone:</label> <br>
             <input type="email" name="tel" id="itel" required>
         </p>
         <p>
-            <label for="idata">Data de nascimento:</label>
+            <label for="idata">Data de nascimento:</label> <br>
             <input type="date" name="data" id="idata">
         </p>
         <p>
@@ -68,9 +64,16 @@
             <input type="number" name="cpf" id="icpf" required min="11" maxlength="11">
         </p>
         <p>
+            <label for="iemail">Email:</label> <br>
+            <input type="email" name="email" id="iemail" required><br>
+            <input type="checkbox" name="check" id="icheck"> 
+            <label for="icheck">receber e-mails promocionais</label>
+        </p>
+        <p>
             <label for="isenha">Senha:</label> <br>
             <input type="password" name="senha" id="isenha">
         </p>
+        <input type="submit" value="Criar seu cadastro">
     </form>
     
 </body>
