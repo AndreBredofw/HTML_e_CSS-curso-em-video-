@@ -24,12 +24,17 @@
             text-align: center;
         }
 
+        span{
+            color: white;
+            font-size: 40px;
+        }
  
     </style>
 </head>
 <body>
-    <nav id="nave">
 
+    <nav id="nave">
+        <span>Americanas</span>
     </nav>
     <header>
         <h1>Realize seu cadastro</h1>
@@ -44,7 +49,7 @@
         <div>
             <label for="gen">Genêro:</label> <br>
          
-                <input type="radio" name="sex" id="imasc" class="rad"> <label for="imasc">Masculino</label>
+                <input type="radio" name="sex" id="imasc" class="rad" checked> <label for="imasc" >Masculino</label>
           
                 <input type="radio" name="sex" id="ifem" class="rad"> <label for="ifem">Feminino</label>
 
@@ -53,15 +58,15 @@
 
         <p>
             <label for="itel">Telefone:</label> <br>
-            <input type="email" name="tel" id="itel" required>
+            <input type="number" name="tel" id="itel" required>
         </p>
         <p>
             <label for="idata">Data de nascimento:</label> <br>
-            <input type="date" name="data" id="idata">
+            <input type="date" name="data" id="idata" required>
         </p>
         <p>
             <label for="cpf">CPF:</label> <br>
-            <input type="number" name="cpf" id="icpf" required min="11" maxlength="11">
+            <input type="number" name="cpf" id="icpf" required maxlength="11">
         </p>
         <p>
             <label for="iemail">Email:</label> <br>
