@@ -11,10 +11,12 @@
         }
         form{
             border: 1px solid black;
-            height: 450px;
+            height: 630px;
             width: 320px;
             margin: auto;
             padding: 15px;
+            border-radius: 20px;
+            margin-bottom: 20px;
         }
         #nave{
             height: 85px;
@@ -24,17 +26,25 @@
             text-align: center;
         }
 
-        span{
-            color: white;
-            font-size: 40px;
+        img{
+            padding-top: 10px;
         }
- 
+        input{
+            height: 20px;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+
+        span{
+            color: rgba(107, 106, 106, 0.733);
+            font-size: 0.9em;
+        }
     </style>
 </head>
 <body>
 
     <nav id="nave">
-        <span>Americanas</span>
+        <img src="logoamericanas.png" alt="" width="270px">
     </nav>
     <header>
         <h1>Realize seu cadastro</h1>
@@ -48,6 +58,7 @@
         </p>
         <div>
             <label for="gen">Genêro:</label> <br>
+            <span>pra gente te conhecer um pouquinho melhor :)</span> <br>
          
                 <input type="radio" name="sex" id="imasc" class="rad" checked> <label for="imasc" >Masculino</label>
           
@@ -58,10 +69,12 @@
 
         <p>
             <label for="itel">Telefone:</label> <br>
+            <span>caso a gente precise entrar em contato sobre seus pedidos</span> <br>
             <input type="number" name="tel" id="itel" required>
         </p>
         <p>
             <label for="idata">Data de nascimento:</label> <br>
+            <span>necessário pra identificar a maioridade, no formato DD/MM/AAAA</span> <br>
             <input type="date" name="data" id="idata" required>
         </p>
         <p>
@@ -70,6 +83,7 @@
         </p>
         <p>
             <label for="iemail">Email:</label> <br>
+            <span>informe um e-mail válido. Você vai precisar ativar sua conta depois de criar seu cadastro</span> <br>
             <input type="email" name="email" id="iemail" required><br>
             <input type="checkbox" name="check" id="icheck"> 
             <label for="icheck">receber e-mails promocionais</label>
