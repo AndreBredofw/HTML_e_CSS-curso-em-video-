@@ -11,7 +11,7 @@
         }
         form{
             border: 1px solid black;
-            height: 630px;
+            height: 650px;
             width: 320px;
             margin: auto;
             padding: 15px;
@@ -25,6 +25,9 @@
         header{
             text-align: center;
         }
+        p{
+            margin:0px 10px 18px 10px ;
+        }
 
         img{
             padding-top: 10px;
@@ -33,12 +36,34 @@
             height: 20px;
             border-radius: 5px;
             border: 1px solid gray;
+            
         }
 
         span{
             color: rgba(107, 106, 106, 0.733);
-            font-size: 0.9em;
+            font-size: 0.85em;
         }
+
+        #submit{
+            margin-top: 20px;
+            margin-left: 25px;
+            border: 1px solid ;
+            width: 60vw;
+            height: 45px;
+            background-color: #F80032;
+            color: white;
+            border-radius: 10px;
+            font-size: 1em;
+        }
+
+        #gen{
+                margin-bottom: 10px;
+         }
+
+         #asterisco{
+                color: #F80032;
+         }
+    
     </style>
 </head>
 <body>
@@ -49,15 +74,15 @@
     <header>
         <h1>Realize seu cadastro</h1>
         <p>veja seus pedidos de forma fácil, compre mais rápido e tenha uma experiência personalizada :) </p>
-        <p>Campos obrigatórios</p>
+        <p><span id="asterisco">*</span>Campos obrigatórios</p>
     </header>
-    <form action="" method="get">
+    <form action="bemvindo.html" method="get">
         <p>
-            <label for="inome">Nome completo:</label> <br>
+            <label for="inome"><span id="asterisco">*</span>Nome completo:</label> <br>
             <input type="text" name="nome" id="inome" required minlength="4" maxlength="35">
         </p>
-        <div>
-            <label for="gen">Genêro:</label> <br>
+        <div id="gen">
+            <label for="gen"><span id="asterisco">*</span>Genêro:</label> <br>
             <span>pra gente te conhecer um pouquinho melhor :)</span> <br>
          
                 <input type="radio" name="sex" id="imasc" class="rad" checked> <label for="imasc" >Masculino</label>
@@ -68,31 +93,31 @@
         </div>
 
         <p>
-            <label for="itel">Telefone:</label> <br>
+            <label for="itel"><span id="asterisco">*</span>Telefone:</label> <br>
             <span>caso a gente precise entrar em contato sobre seus pedidos</span> <br>
             <input type="number" name="tel" id="itel" required>
         </p>
         <p>
-            <label for="idata">Data de nascimento:</label> <br>
+            <label for="idata"><span id="asterisco">*</span>Data de nascimento:</label> <br>
             <span>necessário pra identificar a maioridade, no formato DD/MM/AAAA</span> <br>
             <input type="date" name="data" id="idata" required>
         </p>
         <p>
-            <label for="cpf">CPF:</label> <br>
+            <label for="cpf"><span id="asterisco">*</span>CPF:</label> <br>
             <input type="number" name="cpf" id="icpf" required maxlength="11">
         </p>
         <p>
-            <label for="iemail">Email:</label> <br>
+            <label for="iemail"><span id="asterisco">*</span>Email:</label> <br>
             <span>informe um e-mail válido. Você vai precisar ativar sua conta depois de criar seu cadastro</span> <br>
             <input type="email" name="email" id="iemail" required><br>
             <input type="checkbox" name="check" id="icheck"> 
             <label for="icheck">receber e-mails promocionais</label>
         </p>
         <p>
-            <label for="isenha">Senha:</label> <br>
-            <input type="password" name="senha" id="isenha">
+            <label for="isenha"><span id="asterisco">*</span>Senha:</label> <br>
+            <input type="password" name="senha" id="isenha" required minlength="6" max="20">
         </p>
-        <input type="submit" value="Criar seu cadastro">
+        <input id="submit" type="submit" value="Criar seu cadastro">
     </form>
     
 </body>
